@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+doc-render/
+boceto-*.png
+make_doc.py
