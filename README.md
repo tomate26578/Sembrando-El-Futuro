@@ -14,7 +14,7 @@ La aplicación usa funciones incluidas en Node y no requiere `npm install`.
 
 1. Crear una clave en https://openrouter.ai/keys y comprobar condiciones y límites del modelo.
 2. Copiar `.env.example` a `.env` en esta carpeta y pegar la clave después de `OPENROUTER_API_KEY=`. No usar comillas. No subir ni compartir `.env`.
-3. El ejemplo utiliza `openrouter/free`; su disponibilidad, políticas de datos y modelos pueden variar. Reiniciar el servidor después de editar `.env`.
+3. El ejemplo utiliza `google/gemma-3-27b-it:free`; su disponibilidad, políticas de datos y modelos pueden variar. Reiniciar el servidor después de editar `.env`.
 
 Cuando se consulta la IA se envían al proveedor la consulta, datos de la zona y el cultivo, respuestas, notas y parte de la conversación. Las coordenadas también se envían al servicio de datos climáticos cuando se solicitan datos para la zona.
 
