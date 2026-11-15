@@ -20,7 +20,7 @@ Cuando se consulta la IA se envían al proveedor la consulta, datos de la zona y
 
 ## Datos y límites
 
-- Para una zona con coordenadas, el servidor solicita a POWER temperatura media, mínima y máxima, precipitación, humedad relativa del aire y humedad modelada en la zona de raíces durante 01/01/2025–14/11/2026. Resume cada mes e informa fechas sin datos. Son estimaciones regionales, no mediciones de una finca ni un pronóstico.
+- Para una zona con coordenadas, el servidor solicita a POWER temperatura media, mínima y máxima, precipitación, humedad relativa del aire y humedad modelada en la zona de raíces desde el inicio histórico disponible en 1981 hasta la fecha actual (los últimos días pueden no estar disponibles). Resume los últimos 24 meses para el asistente e informa los días faltantes de toda la serie. Son estimaciones regionales, no mediciones de una finca ni un pronóstico.
 - La información del INTA consiste en una **selección breve de resúmenes preparados** de tres publicaciones citadas en `server.mjs`. No consulta en vivo una base de datos del INTA, no analiza la tierra de cada usuario y puede no cubrir el cultivo. El asistente debe informar los datos no disponibles.
 - Las respuestas son generadas por IA y pueden contener errores; revisarlas con profesionales y fuentes originales. No se garantiza un diagnóstico de enfermedades, viabilidad de cultivos, mutualismo o un plan de riego.
 - Las alertas automáticas no están conectadas a las fuentes seleccionadas. El historial conserva registros anteriores. El mapa de precipitaciones es satelital y no equivale a un radar meteorológico ni a una alerta oficial.
